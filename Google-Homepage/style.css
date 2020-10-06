@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:Roboto,HelveticaNeue,Arial,sans-serif;font-size:10pt;
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
+body, td, a, p, .h {
+	font-family: arial, sans-serif;
+}
+
+#topNav {
+	position: absolute; 
+	top: 0px; 
+	width: 328px; 
+	height: 0px; 
+	margin-top: 40px; 
+	right: 0px; 
+	margin-right: 27px; 
+	transition: height 0.3s ease-in-out;
+}
+
+.navLink {
+	min-width: 244px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#logo {
+	display: block;
+	align-items: center;
+	margin: 100px auto 0 auto;
+	padding: 28px 0 14px;
+}
+
+#search {
+	width: 75%;
+	margin: auto;
+}
+
+.lst {
+	padding: 5px 8px 0px 6px; 
+	vertical-align: top; 
+	color: rgb(0, 0, 0); 
+	outline: none;
+}
+
+input {
+	font-family: inherit;
+}
+
+#butts {
+	width: 50%;
+	margin: auto;
+}
+
+.lsb {
+	background: url("https://www.google.com/images/nav_logo229.png") 0px -261px repeat-x;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	border-radius: 0;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	height: 30px;
+	margin: auto;
+	outline: 0px;
+	font: 15px arial, sans-serif;
+	vertical-align: top;
+	
+}
+
+#lang {
+	font-size:83%;
+	min-height:3.5em;
+}
+
+#foot {
+	align-items: center;
+}
+
+p {
+	font-size: 8pt;
+	color: #767676;
+}
